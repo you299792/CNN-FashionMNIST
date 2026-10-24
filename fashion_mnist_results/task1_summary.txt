@@ -1,0 +1,17 @@
+Fashion-MNIST data plan
+=====================
+Task statement: Multi-class clothing image classification using Fashion-MNIST. Input size: 32x32 grayscale images (converted from 28x28 source). Number of classes: 10.
+Splits: train/validation/test = 48,000 / 6,000 / 10,000 images.
+Preprocessing: normalize to [0,1], resize from 28x28 to 32x32, and use one-hot labels only at the model output.
+
+Class counts:
+0: T-shirt/top -> train=5400, val=600, test=1000, total=7000
+1: Trouser -> train=5400, val=600, test=1000, total=7000
+2: Pullover -> train=5400, val=600, test=1000, total=7000
+3: Dress -> train=5400, val=600, test=1000, total=7000
+4: Coat -> train=5400, val=600, test=1000, total=7000
+5: Sandal -> train=5400, val=600, test=1000, total=7000
+6: Shirt -> train=5400, val=600, test=1000, total=7000
+7: Sneaker -> train=5400, val=600, test=1000, total=7000
+8: Bag -> train=5400, val=600, test=1000, total=7000
+9: Ankle boot -> train=5400, val=600, test=1000, total=7000
